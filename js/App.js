@@ -7,8 +7,11 @@ class Quiz {
             throw 'Les paramètres données ne sont pas les bons !'
         }
     }
-
     getAnswer() {
         return "C'était pas si difficile :)"
     }
 }
+
+const Predator = new Quiz ("partie-1",4)
+
+console.log(Predator.getAnswer())
